@@ -7,13 +7,15 @@
         "preserveConstEnums": true,
         "declaration": true,
         "suppressImplicitAnyIndexErrors": true,
-        "outDir": "../js"
+        "outDir": "./js"
     },
     "filesGlob": [
         "./**/*.ts",
-        "!./node_modules/**/*.ts"
+        "!./node_modules/**/*.ts",
+        "!./js/**/*"
     ],
     "files": [
+        "./bar.ts",
         "./index.ts",
         "./typings/node/node.d.ts",
         "./typings/tsd.d.ts"
