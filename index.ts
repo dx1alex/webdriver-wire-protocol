@@ -1,1 +1,1 @@
-export const __ = void 0
+export interface __ {}

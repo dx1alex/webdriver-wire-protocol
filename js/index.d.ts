@@ -1,1 +1,2 @@
-export declare const __: any;
+export interface __ {
+}
