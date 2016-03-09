@@ -1,0 +1,24 @@
+{
+  "name": "ts-npm-module",
+  "version": "0.0.1",
+  "description": "A sample TypeScript npm module",
+  "main": "js/index.js",
+  "typings": "js/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dx1alex/ts-npm-module.git"
+  },
+  "keywords": [
+    "typescript",
+    "atom"
+  ],
+  "author": "dx1alex@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dx1alex/ts-npm-module.git"
+  },
+  "homepage": "https://github.com/dx1alex/ts-npm-module.git"
+}
