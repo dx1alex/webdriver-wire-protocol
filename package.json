@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-module",
+  "name": "webdriver-wire-protocol",
   "version": "0.0.1",
-  "description": "A sample TypeScript npm module",
+  "description": "webdriver-wire-protocol",
   "main": "js/index.js",
   "typings": "js/index",
   "scripts": {
@@ -9,16 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dx1alex/ts-npm-module.git"
+    "url": "git+https://github.com/dx1alex/webdriver-wire-protocol.git"
   },
   "keywords": [
     "typescript",
     "atom"
   ],
   "author": "dx1alex@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dx1alex/ts-npm-module.git"
-  },
-  "homepage": "https://github.com/dx1alex/ts-npm-module.git"
+  "license": "MIT"
 }

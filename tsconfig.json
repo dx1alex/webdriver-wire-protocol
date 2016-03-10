@@ -4,7 +4,7 @@
         "module": "commonjs",
         "noImplicitAny": false,
         "removeComments": true,
-        "preserveConstEnums": true,
+        "preserveConstEnums": false,
         "declaration": true,
         "suppressImplicitAnyIndexErrors": true,
         "outDir": "./js"
@@ -16,6 +16,9 @@
     ],
     "files": [
         "./index.ts",
+        "./lib/json-rest-builder.ts",
+        "./lib/reques-handler.ts",
+        "./test/test.ts",
         "./typings/node/node.d.ts",
         "./typings/tsd.d.ts"
     ],
