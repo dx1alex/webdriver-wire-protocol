@@ -2,7 +2,6 @@ import {parse} from 'url'
 import {request} from 'http'
 
 let requestHandler = function(options: any): Promise<any> {
-  console.log(options)
   return new Promise((resolve, reject) => {
     Object.assign(options, parse(options.url))
     let headers = {
@@ -26,7 +25,6 @@ let requestHandler = function(options: any): Promise<any> {
         }
         data = JSON.parse(data)
         if (data.status) return reject(data)
-        //console.log(data)
         resolve(data)
       })
     })

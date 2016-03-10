@@ -2,7 +2,6 @@
 const url_1 = require('url');
 const http_1 = require('http');
 let requestHandler = function (options) {
-    console.log(options);
     return new Promise((resolve, reject) => {
         Object.assign(options, url_1.parse(options.url));
         let headers = {
