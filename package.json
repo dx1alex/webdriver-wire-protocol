@@ -1,6 +1,6 @@
 {
   "name": "webdriver-wire-protocol",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "webdriver-wire-protocol",
   "main": "js/index.js",
   "typings": "js/index",
