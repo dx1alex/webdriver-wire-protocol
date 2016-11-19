@@ -51,7 +51,7 @@ class JsonRestBuilder {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = JsonRestBuilder;
 function parsePath(path, data) {
-    return path.replace(/:([a-zA-Z0-9_$]+)/g, (m, p) => {
+    return path.replace(/:([a-zA-Z_$]+)/g, (m, p) => {
         if (!(p in data))
             throw new TypeError('invalid arguments');
         return data[p];

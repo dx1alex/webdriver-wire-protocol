@@ -1,6 +1,6 @@
 "use strict";
-const url_1 = require('url');
-const http_1 = require('http');
+const url_1 = require("url");
+const http_1 = require("http");
 let requestHandler = function (options) {
     return new Promise((resolve, reject) => {
         Object.assign(options, url_1.parse(options.url));

@@ -1,6 +1,6 @@
 "use strict";
-const json_rest_builder_1 = require('./lib/json-rest-builder');
-const reques_handler_1 = require('./lib/reques-handler');
+const json_rest_builder_1 = require("./lib/json-rest-builder");
+const reques_handler_1 = require("./lib/reques-handler");
 class WebdriverWireProtocol {
     constructor(options) {
         new json_rest_builder_1.default({

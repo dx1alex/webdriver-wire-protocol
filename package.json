@@ -1,6 +1,6 @@
 {
   "name": "webdriver-wire-protocol",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "webdriver-wire-protocol",
   "main": "js/index.js",
   "typings": "js/index",
@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/dx1alex/webdriver-wire-protocol.git"
   },
-  "keywords": [
-    "typescript",
-    "atom"
-  ],
   "author": "dx1alex@gmail.com",
   "license": "MIT"
 }
